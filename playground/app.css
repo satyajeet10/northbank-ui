@@ -1,0 +1,18 @@
+body { margin: 0; background: var(--nb-page); font-family: var(--nb-font); color: var(--nb-ink); }
+.topbar { display: flex; justify-content: space-between; align-items: center; padding: 14px 28px; background: var(--nb-brand); color: #fff; }
+.brand { font-weight: 700; font-size: 1.1rem; }
+.who { font-size: 0.9rem; opacity: 0.9; }
+.content { max-width: 640px; margin: 32px auto; padding: 24px 28px; background: var(--nb-surface); border: 1px solid var(--nb-line); border-radius: 14px; }
+.content h1 { margin: 0 0 12px; font-size: 1.4rem; }
+.pay { display: grid; gap: 18px; max-width: 440px; }
+.pay .nb-btn { justify-self: start; }
+.error { color: var(--nb-danger); margin: -6px 0 0; font-size: 0.9rem; }
+.muted { color: var(--nb-muted); }
+.accounts { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.card { display: flex; justify-content: space-between; padding: 16px; border: 1px solid var(--nb-line); border-radius: 10px; }
+.activity { list-style: none; padding: 0; margin: 0; }
+.activity li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--nb-line); }
+.activity small { display: block; color: var(--nb-muted); }
+.summary { display: grid; grid-template-columns: auto 1fr; gap: 6px 18px; margin: 0 0 18px; }
+.summary dt { color: var(--nb-muted); }
+.summary dd { margin: 0; font-weight: 600; }
